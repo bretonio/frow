@@ -526,7 +526,7 @@ label:not(.reset) {
   color: #9E9E9E;
   display: block;
   font-size: 14px;
-  padding: 4px 5px; }
+  padding: 4px 0; }
 
 input:not(.reset) {
   background: transparent;
@@ -550,6 +550,10 @@ input:not(.reset) {
     input:not(.reset)[type=number]::-webkit-inner-spin-button, input:not(.reset)[type=number]::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0; }
+  input:not(.reset)[type="checkbox"] {
+    width: auto;
+    margin-top: 2px;
+    margin-right: 3px; }
 
 select:not(.reset) {
   -webkit-appearance: none;
